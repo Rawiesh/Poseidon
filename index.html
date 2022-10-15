@@ -38,16 +38,18 @@
           <li class="nav-item">
             <a class="nav-link nav-black" href="video.html"><i class="fa-solid fa-circle-play blue-icon"></i> Video</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="btn btn-outline-danger custom-button" href="contact.html"><i
                 class="fa-solid fa-phone red-icon"></i> CONTACT</a>
-          </li>
+          </li> -->
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2 search-box" type="search" placeholder="I'm looking for..">
-          <button class="btn btn-outline-success my-2 my-sm-0 custom-button" type="submit"><i
+          <button class="btn btn-outline-success my-2 my-sm-0 custom-button search-button" type="submit"><i
               class="fa-solid fa-magnifying-glass"></i> Search</button>
         </form>
+        <a class="btn btn-outline-danger custom-button contact-button" href="contact.html"><i
+            class="fa-solid fa-phone red-icon"></i> CONTACT</a>
       </div>
     </nav>
   </header>
@@ -96,7 +98,7 @@
     <div class="facilities-section">
       <h1>Our Facilities</h1>
       <div class="row cards-row">
-        <div class="col-sm">
+        <div class="col-md-4 facilities-card-container">
           <div class="card img-fluid custom-card" style="width:300px">
             <img class="card-img-top card-img custom-card-img" src="images/card1.png" alt="Card image">
             <div class="d-flex align-items-start flex-column card-img-overlay custom-card-img">
@@ -108,7 +110,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm">
+        <div class="col-md-4 facilities-card-container">
           <div class="card img-fluid custom-card" style="width:300px">
             <img class="card-img-top card-img custom-card-img" src="images/card2.png" alt="Card image">
             <div class="d-flex align-items-start flex-column card-img-overlay custom-card-img">
@@ -120,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm">
+        <div class="col-md-4 facilities-card-container">
           <div class="card img-fluid custom-card" style="width:300px">
             <img class="card-img-top card-img custom-card-img" src="images/card3.png" alt="Card image">
             <div class="d-flex align-items-start flex-column card-img-overlay custom-card-img">
@@ -133,22 +135,22 @@
           </div>
         </div>
       </div>
-
     </div>
 
     <div class="gallery-section">
       <h1>Our Gallery</h1>
       <div class="row gallery-row">
-        <div class="col-sm">
-          <img src="images/gallery1.png" class="img-rounded" height="400">
+        <div class="col-md-4">
+          <img src="images/gallery1.png" class="img-rounded img-fluid gallery-img" height="400">
         </div>
-        <div class="col-sm">
-          <img src="images/gallery2.png" class="img-rounded" height="190">
-          <div style="height: 20px;"></div>
-          <img src="images/gallery3.png" class="img-rounded" height="190">
+        <div class="col-md-4 flex-column">
+          <img src="images/gallery2.png" class="img-rounded img-fluid gallery-img" height="190">
+          <div class="align-self-end">
+            <img src="images/gallery3.png" class="img-rounded img-fluid gallery-img" height="190">
+          </div>
         </div>
-        <div class="col-sm">
-          <img src="images/gallery4.png" class="img-rounded" height="400">
+        <div class="col-md-4">
+          <img src="images/gallery4.png" class="img-rounded img-fluid gallery-img" height="400">
         </div>
       </div>
     </div>
@@ -156,10 +158,10 @@
 
   <footer>
     <div class="row align-items-start content-padding footer-top">
-      <div class="col">
-        <img src="images/footer_logo.png" width="180">
+      <div class="col-md-3">
+        <img src="images/footer_logo.png" class="footer-logo" width="180">
       </div>
-      <div class="col">
+      <div class="col-md-3">
         <h6>REACH US</h6>
         <ul class="list-unstyled">
           <li>6391 Elgin St. Celina, Delaware 10299</li>
@@ -167,7 +169,7 @@
           <li>poseidonwp@gmail.com</li>
         </ul>
       </div>
-      <div class="col">
+      <div class="col-md-3">
         <h6>QUICK LINKS</h6>
         <ul class="list-unstyled">
           <a href="#" class="quick-link">Facilities</li></a>
@@ -183,7 +185,7 @@
           <li>
         </ul>
       </div>
-      <div class="col">
+      <div class="col-md-3">
         <h6>OPENING HOURS</h6>
         <ul class="list-unstyled">
           <li>Monday - Friday 11:00 AM - 5:00 PM</li>
