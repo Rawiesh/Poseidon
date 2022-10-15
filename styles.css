@@ -2,20 +2,47 @@ body {
     background-color: #FAFAFA;
 }
 
+.content-padding {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    color: #FAFAFA;
+    font-size: 32px;
+    font-weight: 600;
+}
+
 h6 {
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
 }
 
-li, a.quick-link {
+p {
+    font-family: 'Heebo';
+    font-weight: 400;
     font-size: 16px;
-    color: #fafafa;
 }
 
-.content-padding {
-    padding-left: 5%;
-    padding-right: 5%; 
+.nav-link {
+    font-size: 16px;
+}
+
+.search-box {
+    border-radius: 12px;
+}
+
+li,
+a.quick-link {
+    font-size: 16px;
+    color: #fafafa;
 }
 
 .navbar {
@@ -30,13 +57,67 @@ li, a.quick-link {
     min-height: 20px;
 }
 
-main {
-    padding-left: 5%;
-    padding-right: 5%;
+.nav-black {
+    color: #171717 !important;
+}
+
+.blue-icon {
+    color: #01BAEF;
+}
+
+.custom-button {
+    border-radius: 12px;
+}
+
+.why-us-section {
+    background-color: #E6F8FD;
+    ;
+    padding: 20px 5%;
+    margin-top: 25px;
+}
+
+.facilities-section {
+    padding: 0 5%;
+    margin-top: 15px;
+}
+
+.cards-row {
+    padding-top: 15px;
+}
+
+.custom-card {
+    border: none;
+}
+
+.custom-card-img {
+    border-radius: 20px !important;
+}
+
+.custom-card-img p {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+.gallery-section {
+    padding: 0 5%;
+    margin-top: 40px;
+}
+
+.gallery-row {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.facilities-section .card-img {
+    width: 100%;
 }
 
 .site-carousel {
     margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 footer {

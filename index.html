@@ -7,6 +7,9 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -24,24 +27,26 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link nav-black" href="index.html"><i class="fa-solid fa-house-user blue-icon"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link nav-black" href="about.html"><i class="fa-solid fa-circle-info blue-icon"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="game.html">Game</a>
+            <a class="nav-link nav-black" href="game.html"><i class="fa-solid fa-gamepad blue-icon"></i> Game</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="video.html">Video</a>
+            <a class="nav-link nav-black" href="video.html"><i class="fa-solid fa-circle-play blue-icon"></i> Video</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="btn btn-outline-danger custom-button" href="contact.html"><i
+                class="fa-solid fa-phone red-icon"></i> CONTACT</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2 search-box" type="search" placeholder="I'm looking for..">
+          <button class="btn btn-outline-success my-2 my-sm-0 custom-button" type="submit"><i
+              class="fa-solid fa-magnifying-glass"></i> Search</button>
         </form>
       </div>
     </nav>
@@ -74,10 +79,79 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis numquam molestiae temporibus ipsum, eum
-      corrupti commodi eos expedita harum! Hic vero qui, itaque velit dignissimos dicta dolorum autem earum magnam.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis numquam molestiae temporibus ipsum, eum
-      corrupti commodi eos expedita harum! Hic vero qui, itaque velit dignissimos dicta dolorum autem earum magnam.</p>
+    <div class="why-us-section">
+      <h1>Why Us?</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper nisi in blandit cursus. Sed lobortis
+        eleifend nulla et tristique. Ut elementum est quis ex accumsan aliquet. Donec in metus euismod, faucibus purus
+        ornare, vehicula mi. Curabitur justo nisi, elementum eu elit sit amet, iaculis hendrerit ligula. Duis rhoncus
+        sem ac risus interdum pretium. Vestibulum ac eleifend ante, ac ullamcorper neque. Sed elementum vitae turpis in
+        posuere. Sed metus elit, tincidunt nec rhoncus vitae, feugiat quis leo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper nisi in blandit cursus. Sed lobortis
+        eleifend nulla et tristique. Ut elementum est quis ex accumsan aliquet. Donec in metus euismod, faucibus purus
+        ornare, vehicula mi. Curabitur justo nisi, elementum eu elit sit amet, iaculis hendrerit ligula. Duis rhoncus
+        sem ac risus interdum pretium. Vestibulum ac eleifend ante, ac ullamcorper neque. Sed elementum vitae turpis in
+        posuere. Sed metus elit, tincidunt nec rhoncus vitae, feugiat quis leo.</p>
+    </div>
+
+    <div class="facilities-section">
+      <h1>Our Facilities</h1>
+      <div class="row cards-row">
+        <div class="col-sm">
+          <div class="card img-fluid custom-card" style="width:300px">
+            <img class="card-img-top card-img custom-card-img" src="images/card1.png" alt="Card image">
+            <div class="d-flex align-items-start flex-column card-img-overlay custom-card-img">
+              <div class="p2">
+                <p>Steep & Gentle Slides</p>
+                <h2 class="card-title">Water Slides</h2>
+              </div>
+              <a href="#" class="mt-auto p-2 btn btn-danger custom-button">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card img-fluid custom-card" style="width:300px">
+            <img class="card-img-top card-img custom-card-img" src="images/card2.png" alt="Card image">
+            <div class="d-flex align-items-start flex-column card-img-overlay custom-card-img">
+              <div class="p2">
+                <p>River Cruise</p>
+                <h2 class="card-title">River Rides</h2>
+              </div>
+              <a href="#" class="mt-auto p-2 btn btn-danger custom-button">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card img-fluid custom-card" style="width:300px">
+            <img class="card-img-top card-img custom-card-img" src="images/card3.png" alt="Card image">
+            <div class="d-flex align-items-start flex-column card-img-overlay custom-card-img">
+              <div class="p2">
+                <p>50m lanes</p>
+                <h2 class="card-title">Pools</h2>
+              </div>
+              <a href="#" class="mt-auto p-2 btn btn-danger custom-button">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="gallery-section">
+      <h1>Our Gallery</h1>
+      <div class="row gallery-row">
+        <div class="col-sm">
+          <img src="images/gallery1.png" class="img-rounded" height="400">
+        </div>
+        <div class="col-sm">
+          <img src="images/gallery2.png" class="img-rounded" height="190">
+          <div style="height: 20px;"></div>
+          <img src="images/gallery3.png" class="img-rounded" height="190">
+        </div>
+        <div class="col-sm">
+          <img src="images/gallery4.png" class="img-rounded" height="400">
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer>
