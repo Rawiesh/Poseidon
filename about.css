@@ -25,5 +25,43 @@
     color: #01BAEF;
     margin-bottom: 25px;
     margin-top: 15px;
+}
+
+
+.staff-card {
+    /* width: 26%; */
+    border-radius: 15px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: black;
+    padding: -2px;
+    border: 4px inset green;
+}
+
+.staff-card .container {
+    padding: 3px 16px;
+    color: white;
+}
+
+
+/* Team section */
+.team-row {
+    margin-bottom: 40px;
+}
+
+.team-card {
+    background-color: #E6F8FD;
+    border-radius: 12px;
+    border: 2px solid #005B75;
+    transition: transform .2s;
+}
+
+.team-card:hover {
+    transform: scale(1.1);
+}
+
+.team-card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 
 }

@@ -28,6 +28,15 @@
   border-color: #e65c4f;
 }
 
+.nav-black:hover {
+  color: #01a7d7 !important;
+}
+
+/* .nav-link {
+  background-color: #e65c4f !important;
+  color: #e65c4f !important;
+} */
+
 /* CONTACT */
 
 .hero .bg-image {
@@ -65,7 +74,7 @@
 }
 
 .contact-illustration {
-  object-fit: contain;
+  width: 150%;
 }
 
 .contact-form {
