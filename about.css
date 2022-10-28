@@ -35,6 +35,10 @@
   box-shadow: 10px 15px 20px 0px #adc3ca;
 }
 
+.dark-blue-card:hover {
+  background-color: #016e8d;
+}
+
 .dark-blue-card i {
   color: #01baef;
   padding-bottom: 25px;
@@ -51,8 +55,13 @@
   background-color: #01baef;
   color: #fafafa;
   border-radius: 24px;
-  height: 230px;
+  min-height: 230px;
   box-shadow: 10px 15px 20px 0px #a4c3d6;
+  margin-bottom: 20px;
+}
+
+.value-card:hover {
+  background-color: #2cd1ff;
 }
 
 .value-card i {
